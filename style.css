@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&display=swap");
+
+/* decleare variable */
+:root {
+  --primary-color: #0D9488;
+  --gray-color: gray;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  margin: 0px;
+}
+
+hr {
+  margin: 1rem 0rem;
+}
+
+/* containers */
+.container {
+  padding: 0 1rem;
+}
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* links */
+.link {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+
+}
+.link-secondary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  /* border-radius: 0.5rem; */
+  border-radius: 0.5rem;
+}
+
+/* lists */
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 1rem;
+}
+
+/* navigation */
+.list-nav-inline {
+  display: inline;
+}
+.nav-bar {
+  background-color: var(--primary-color);
+  border-bottom-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.nav-unorder-list {
+  text-align: right;
+}
+
+.nav-bar .link {
+  color: white;
+}
+.nav-my-brand {
+  font-weight: bold;
+}
+.nav-bar .link-active {
+  font-weight: bold;
+}
+
+/* header */
+.header {
+  padding: 1rem;
+}
+.header .header-image {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+.header .header-heading {
+  padding: 1rem;
+  color: var(--gray-color);
+  text-align: center;
+}
+.header .header-heading .header-span {
+  color: var(--primary-color);
+}
+
+/* section */
+#section {
+  padding: 2rem;
+}
+#section h3 {
+  text-align: center;
+}
+.ow {
+  background-color: var(--gray-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 0rem;
+  text-align: center;
+  color: white;
+}
+.footer .link {
+  color: white;
+}
+.project-btn{
+   
+}
